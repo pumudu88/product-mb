@@ -445,7 +445,7 @@ public class MetricsTestCase extends MBIntegrationBaseTest {
 	 */
 	private void invokeJMXReportOperation() throws IOException, MalformedObjectNameException{
 		JMXServiceURL url =
-				new JMXServiceURL("service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi");
+				new JMXServiceURL("service:jmx:rmi://localhost:12411/jndi/rmi://localhost:11299/jmxrmi");
 		Map<String, String[]> env = new HashMap<>();
 		String[] credentials = {"admin", "admin"};
 		env.put(JMXConnector.CREDENTIALS, credentials);

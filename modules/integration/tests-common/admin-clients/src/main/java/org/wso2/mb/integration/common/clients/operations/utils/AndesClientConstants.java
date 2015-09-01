@@ -93,7 +93,7 @@ public class AndesClientConstants {
     /**
      * Default port for AMQP connections string
      */
-    public static final int DEFAULT_PORT = 5672;
+    public static final int DEFAULT_PORT = 6972;
 
     /**
      * File path to read message content for publishing
